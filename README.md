@@ -19,5 +19,6 @@ run and result like this,
 ![getword_xiaolaba_test1.JPG](getword_xiaolaba_test1.JPG)
 
 ## The Next:
-await for comments and suggestions.
+await for comments and suggestions. see if anyone will helps out,
+http://masm32.com/board/index.php?topic=7163.msg77388#msg77388
   
