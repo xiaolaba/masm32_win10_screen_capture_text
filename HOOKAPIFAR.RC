@@ -1,0 +1,15 @@
+#include <c:\masm32\include\resource.h>
+#define IDD_MAIN 1000
+#define IDC_WORD 1001
+
+IDD_MAIN DIALOG DISCARDABLE 0, 0, 187, 60
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "getword_xiaolaba_test"
+FONT 10, "System"
+
+BEGIN
+////// wrong, not for RC file
+////// To produce res file, uses RC.exe, under masm32\bin
+//  hookapifar.obj /Dll /Section:.bss,S /Def:C:\DIY\2018-05-18_screen_translator\hookapifar.def
+  EDITTEXT IDC_WORD,16,22,149,12,ES_LEFT
+END
